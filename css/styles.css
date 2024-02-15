@@ -21,11 +21,15 @@ span {
     color: #2e2f42;
 }
 
-.address-list {
+.address-list .link {
     font-style: normal;
-}
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
 
-.link {
+.link .navigation {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -36,30 +40,11 @@ span {
     color: #2E2F42;
 }
 
-.address-link {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    text-decoration: none;
-    color: #434455; 
-}
-
-.address-link:hover {
+.navigation .link:hover {
     color: #404bbf;
 }
 
-.link:hover {
-    color: #404bbf;
-}
-
-.address-link:active {
-    color: #404bbf;
-}
-
-.link:active {
+.navigation .link:active {
     color: #404bbf;
 }
 
