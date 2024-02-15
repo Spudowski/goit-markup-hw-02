@@ -21,9 +21,8 @@ span {
     color: #2e2f42;
 }
 
-.address-link {
+.address-list {
     font-style: normal;
-    color: #434455;
 }
 
 .link, .address-link {
@@ -77,12 +76,12 @@ ul {
     transition-duration: 0.2s;
 }
 
-.btn-click:hover {
-    background-color: #404BBF;
+.button-click:hover {
+    background-color: #404bbf;
 }
 
-.btn-click:active {
-    background-color: #404BBF;
+.button-click:active {
+    background-color: #404bbf;
 }
 
 .second-section {
@@ -141,7 +140,7 @@ ul {
 }
 
 .studio-second {
-    color: #f4f4f4;
+    color: #f4f4fd;
 }
 
 .footer-p {
