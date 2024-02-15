@@ -114,6 +114,24 @@ h1 {
     text-align: center;
 }
 
+.op-section {
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.op-lists {
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
 .footer-section {
     background-color: #2E2F42;
 }
