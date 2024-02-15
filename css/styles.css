@@ -1,8 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
     color: #434455;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -10,7 +10,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left; 
     width: 115px;
@@ -18,6 +18,8 @@ body {
     top: 24px;
     left: 156px;
     text-decoration: none;
+    text-transform: uppercase;
+    color: #4D5AE5
 }
 
 .web {
@@ -30,11 +32,11 @@ body {
     text-align: left;
 }
 
-.studio {
-    color: #2E2F42;
+span {
+    color: #2e2f42;
 }
 
-.link {
+.link, .link2 {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -45,27 +47,23 @@ body {
     color: #2E2F42;
 }
 
-.contacts {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    font-style: normal;
-    text-decoration: none;
-    color: #434455;
+.link2:hover {
+    color: #404bbf;
+}
+
+.link2:active {
+    color: #404bbf;
 }
 
 ul {
     list-style-type: none;
 }
 
-h1 {
-    font-family: Roboto;
+.header-main {
+    font-family: "Roboto", sans-serif;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff
@@ -78,6 +76,8 @@ h1 {
 .btn-click {
     background-color: #4D5AE5;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #ffffff;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
@@ -86,15 +86,40 @@ h1 {
 }
 
 .btn-click:hover {
-    background-color: #3742c1;
+    background-color: #404BBF;
 }
 
 .btn-click:active {
-    background-color: #4D5AE5;
+    background-color: #404BBF;
 }
 
 .column {
     text-align: center;
+}
+
+.header-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.list-header {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-weight: 500;
+}
+
+.our-team-bground {
+    background-color: #f4f4fd;
+}
+
+.list-p {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .our-team-section {
@@ -106,39 +131,13 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
     letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.teammate1, .teammate2, .teammate3, .teammate4 {
-font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: center;
-
-}
-
-.op-section {
-font-family: "Roboto", sans-serif;
-font-size: 36px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.02em;
-text-align: center;
-}
-
-.op-lists {
-font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: center;
-}
-
-.footer-section {
+.footer-bground {
     background-color: #2E2F42;
 }
 
