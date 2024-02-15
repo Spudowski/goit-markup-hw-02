@@ -48,19 +48,19 @@ span {
 }
 
 .address-link:hover {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 .link:hover {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 .address-link:active {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 .link:active {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 ul {
@@ -96,11 +96,11 @@ ul {
 }
 
 .button-click:hover {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 .button-click:active {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 .second-section {
