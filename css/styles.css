@@ -25,7 +25,7 @@ span {
     font-style: normal;
 }
 
-.link, .address-link {
+.link {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -36,11 +36,22 @@ span {
     color: #2E2F42;
 }
 
-.address-link:hover, .link:hover {
+.address-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+    color: #434455; 
+}
+
+.address-link:hover .link:hover {
     color: #404bbf;
 }
 
-.address-link:active, .link:active {
+.address-link:active .link:active {
     color: #404bbf;
 }
 
@@ -64,13 +75,13 @@ ul {
     background-color: #2E2F42;
 }
 
-.btn-click {
+.button-click {
     background-color: #4D5AE5;
-    font-weight: 500;
     line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
     letter-spacing: 0.04em;
     color: #ffffff;
-    font-size: 16px;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     transition-duration: 0.2s;
