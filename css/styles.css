@@ -47,19 +47,19 @@ span {
     color: #434455; 
 }
 
-.address-link:hover {
+address-link:hover {
     color: #404bbf;
 }
 
-.link:hover {
+link:hover {
     color: #404bbf;
 }
 
-.address-link:active {
+address-link:active {
     color: #404bbf;
 }
 
-.link:active {
+link:active {
     color: #404bbf;
 }
 
@@ -95,11 +95,11 @@ ul {
     transition-duration: 0.2s;
 }
 
-.button-click:hover {
+button-click:hover {
     background-color: #404bbf;
 }
 
-.button-click:active {
+button-click:active {
     background-color: #404bbf;
 }
 
