@@ -50,9 +50,7 @@ span {
 .address-link:hover 
 .link:hover
 .address-link:focus
-.link:focus
-.address-link:active
-.link:active {
+.link:focus {
     color: #404bbf;
 }
 
@@ -88,12 +86,9 @@ ul {
     transition-duration: 0.2s;
 }
 
-.button-click:hover {
-    background-color: #404bbf;
-}
-
-.button-click:active {
-    background-color: #404bbf;
+.button-click:hover 
+.button-click:focus {
+   background-color: #404bbf;
 }
 
 .second-section {
