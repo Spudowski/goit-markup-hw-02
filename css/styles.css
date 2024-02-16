@@ -47,9 +47,18 @@ span {
     color: #434455; 
 }
 
-.address-link:hover 
-.link:hover
-.address-link:focus
+.address-link:hover {
+     color: #404bbf;
+ }
+ 
+.link:hover {
+     color: #404bbf;
+ }
+
+.address-link:focus {
+     color: #404bbf;
+ }
+
 .link:focus {
     color: #404bbf;
 }
