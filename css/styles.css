@@ -21,15 +21,22 @@ span {
     color: #2e2f42;
 }
 
-.address-list .link {
+.address-list {
     font-style: normal;
-    color: #2e2f42;
+}
+
+.link {
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    }
+    text-align: left;
+    text-decoration: none;
+    color: #2E2F42;
+}
 
-.link .navigation {
+.address-link {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -37,14 +44,15 @@ span {
     letter-spacing: 0.02em;
     text-align: left;
     text-decoration: none;
-    color: #2E2F42;
+    color: #434455; 
 }
 
-.navigation .link:hover {
-    color: #404bbf;
-}
-
-.navigation .link:active {
+.address-link:hover 
+.link:hover
+.address-link:focus
+.link:focus
+.address-link:active
+.link:active {
     color: #404bbf;
 }
 
@@ -81,11 +89,11 @@ ul {
 }
 
 .button-click:hover {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .button-click:active {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .second-section {
