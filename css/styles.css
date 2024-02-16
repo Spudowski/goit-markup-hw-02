@@ -86,7 +86,10 @@ ul {
     transition-duration: 0.2s;
 }
 
-.button-click:hover, 
+.button-click:hover {
+     background-color: #404bbf;
+ }
+
 .button-click:focus {
    background-color: #404bbf;
 }
