@@ -75,6 +75,7 @@ ul {
 }
 
 .btn-click {
+    background-color: #4D5AE5;
     line-height: 1.5;
     font-size: 16px;
     font-weight: 500;
@@ -85,8 +86,8 @@ ul {
     transition-duration: 0.2s;
 }
 
-.btn-click:hover, 
-.btn-click:focus {
+.button-click:hover, 
+.button-click:focus {
     background-color: #404BBF;
 }
 
