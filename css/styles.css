@@ -74,7 +74,7 @@ ul {
     background-color: #2E2F42;
 }
 
-.button-click {
+.btn-click {
     background-color: #4D5AE5;
     line-height: 1.5;
     font-size: 16px;
@@ -87,7 +87,7 @@ ul {
 }
 
 .btn-click:hover, 
-.button-click:focus {
+.btn-click:focus {
     background-color: #404BBF;
 }
 
